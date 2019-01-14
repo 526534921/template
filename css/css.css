@@ -55,8 +55,6 @@ summary {
 a {
     color: #333;
     text-decoration: none;
-    /* -webkit-transition: all .3s ease-out; */
-    /* transition: all .3s ease-out; */
 }
 
 a:link,
