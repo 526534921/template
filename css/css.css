@@ -19,6 +19,20 @@
     background-color: #555;
 }
 
+ ::selection {
+	background-color: #0bae6e;
+	color: #fff;
+}
+
+::-moz-selection {
+	background-color: #0bae6e;
+	color: #fff;
+}
+
+::-webkit-selection {
+	background-color: #0bae6e;
+	color: #fff;
+}
 * {
     padding: 0;
     margin: 0;
