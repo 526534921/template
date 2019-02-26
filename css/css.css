@@ -147,3 +147,12 @@ em {
     font-weight: normal;
     font-style: normal;
 }
+.fixedNav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100000;
+    _position: absolute;
+    _top: expression(eval(document.documentElement.scrollTop));
+}
