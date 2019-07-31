@@ -156,3 +156,96 @@ em {
     _position: absolute;
     _top: expression(eval(document.documentElement.scrollTop));
 }
+
+
+
+html{
+        cursor: url(../images/cur.png),
+        default;
+}
+
+a{
+   cursor: url(../images/Acur.png),
+   default ;
+   width: 300px;
+   height: 300px;
+
+}
+
+input,textarea{
+    animation: animated 1s infinite;
+    -moz-animation: animated 1s infinite;
+    -webkit-animation: animated 1s infinite;
+    -o-animation: animated 1s infinite;
+ 
+}
+
+p,span,dir,h1,h2,h3,h4,h5,h6,b,ul,li,em.strong,b{
+       cursor: url(../images/cdd.png),auto;
+}
+
+
+
+@keyframes animated {
+    0% {
+        cursor: url('../images/Pcuro1.png'),
+        auto;
+    }
+
+    8.8% {
+        cursor: url('../images/Pcuro2.png'),
+            auto;
+    }
+
+    17.6% {
+        cursor: url('../images/Pcuro3.png'),
+            auto;
+    }
+
+    26.4% {
+        cursor: url('../images/Pcuro4.png'),
+            auto;
+    }
+
+    35.2% {
+        cursor: url('../images/Pcuro5.png'),
+            auto;
+    }
+
+    44% {
+        cursor: url('../images/Pcuro6.png'),
+            auto;
+    }
+
+    52.8% {
+        cursor: url('../images/Pcuro7.png'),
+            auto;
+    }
+
+    61.6% {
+        cursor: url('../images/Pcuro8.png'),
+            auto;
+    }
+
+    70.4% {
+        cursor: url('../images/Pcuro9.png'),
+            auto;
+    }
+
+    79.2% {
+        cursor: url('../images/Pcuro10.png'),
+            auto;
+    }
+
+    88% {
+        cursor: url('../images/Pcuro11.png'),
+            auto;
+    }
+
+    100% {
+        cursor: url('../images/Pcuro12.png'),
+            auto;
+    }
+
+    
+}
