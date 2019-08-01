@@ -167,9 +167,6 @@ html{
 a{
    cursor: url(../images/Acur.png),
    default ;
-   width: 300px;
-   height: 300px;
-
 }
 
 input,textarea{
