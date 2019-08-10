@@ -172,7 +172,8 @@ input,textarea{
     -moz-animation: animated 1s infinite;
     -webkit-animation: animated 1s infinite;
     -o-animation: animated 1s infinite;
- 
+ border:none;
+    outline:none;
 }
 
 
