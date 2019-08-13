@@ -166,15 +166,25 @@ a{
    default ;
 }
 
-input,textarea{
+textarea{
     animation: animated 1s infinite;
     -moz-animation: animated 1s infinite;
     -webkit-animation: animated 1s infinite;
     -o-animation: animated 1s infinite;
- border:none;
-    outline:none;
+ 
 }
 
+input[type="text"]{
+     animation: animated 1s infinite;
+    -moz-animation: animated 1s infinite;
+    -webkit-animation: animated 1s infinite;
+    -o-animation: animated 1s infinite;
+}
+input[type="button"]
+{
+   cursor: url(../images/Acur.png),
+   default  !important;
+}
 
 @keyframes animated {
     0% {
