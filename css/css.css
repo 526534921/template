@@ -125,11 +125,10 @@ img {
 textarea {
     outline: 0;
     border: 0;
+	    resize: none;
 }
 
-textarea {
-    resize: none;
-}
+
 
 h1,
 h2,
