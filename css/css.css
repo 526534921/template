@@ -124,10 +124,10 @@ ul {
 img {
     border: none;
 }
-textarea {
+input,textarea {
     outline: 0;
     border: 0;
-	    resize: none;
+    resize: none;
 }
 
 
